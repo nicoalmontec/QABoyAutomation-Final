@@ -24,3 +24,4 @@ class AboutScreen(BasePage):
     @pytest.allure.step("Validate About Me description")
     def validate_about_me_post(self):
         assert self.about_me_post.is_displayed()
+        # test comment
